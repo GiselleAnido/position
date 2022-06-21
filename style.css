@@ -29,8 +29,13 @@ div {
 
 .box3 {
     background-color: green;
+    position: fixed;
+    z-index: 2; /*define the position of the layer, default 0)*/
+
+    /*stays even if you scroll down*/
 }
 
 .box4 {
     background-color: blue;
+    position:sticky;
 }
