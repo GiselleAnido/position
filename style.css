@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box1 {
+    background-color: aqua;
+    position: relative;
+    left: 100px;
+    /* moves the box from the original position (or body) without affecting the other elements*/
+    
+}
+
+.box2 {
+    background-color: red;
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    /*moves the box according the direct parent*/
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box4 {
+    background-color: blue;
+}
